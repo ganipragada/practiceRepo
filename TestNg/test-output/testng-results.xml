@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-05T10:37:49 IST" name="Gani private lmt" finished-at="2024-09-05T10:37:49 IST" duration-ms="190">
+    <groups>
+      <group name="Regression">
+        <method signature="BooksAndPens.pen1()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" name="pen1" class="practiceTestNg.BooksAndPens"/>
+        <method signature="BooksAndPens.book1(java.lang.String)[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" name="book1" class="practiceTestNg.BooksAndPens"/>
+        <method signature="BooksAndPens.pen3(java.lang.String,java.lang.String)[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" name="pen3" class="practiceTestNg.BooksAndPens"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Cards.goldenCard()[pri:0, instance:practiceTestNg.Cards@19e4653c]" name="goldenCard" class="practiceTestNg.Cards"/>
+        <method signature="BooksAndPens.pen1()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" name="pen1" class="practiceTestNg.BooksAndPens"/>
+        <method signature="BooksAndPens.book1(java.lang.String)[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" name="book1" class="practiceTestNg.BooksAndPens"/>
+        <method signature="BooksAndPens.book4()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" name="book4" class="practiceTestNg.BooksAndPens"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-09-05T10:37:49 IST" name="Regression And Smoke Groups " finished-at="2024-09-05T10:37:49 IST" duration-ms="18">
+    </test> <!-- Regression And Smoke Groups  -->
+    <test started-at="2024-09-05T10:37:49 IST" name="loan&#039;s and cards" finished-at="2024-09-05T10:37:49 IST" duration-ms="112">
+      <class name="practiceTestNg.Cards">
+        <test-method is-config="true" signature="debitCard()[pri:0, instance:practiceTestNg.Cards@19e4653c]" started-at="2024-09-05T10:37:49 IST" name="debitCard" finished-at="2024-09-05T10:37:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debitCard -->
+        <test-method is-config="true" signature="greenCard()[pri:0, instance:practiceTestNg.Cards@19e4653c]" started-at="2024-09-05T10:37:49 IST" name="greenCard" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- greenCard -->
+        <test-method signature="goldenCard()[pri:0, instance:practiceTestNg.Cards@19e4653c]" started-at="2024-09-05T10:37:49 IST" name="goldenCard" finished-at="2024-09-05T10:37:49 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goldenCard -->
+        <test-method is-config="true" signature="passBook()[pri:0, instance:practiceTestNg.Cards@19e4653c]" started-at="2024-09-05T10:37:49 IST" name="passBook" finished-at="2024-09-05T10:37:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passBook -->
+      </class> <!-- practiceTestNg.Cards -->
+      <class name="practiceTestNg.PersonalLoan">
+        <test-method signature="nikil()[pri:0, instance:practiceTestNg.PersonalLoan@33065d67]" started-at="2024-09-05T10:37:49 IST" name="nikil" finished-at="2024-09-05T10:37:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nikil -->
+        <test-method signature="raja()[pri:0, instance:practiceTestNg.PersonalLoan@33065d67]" started-at="2024-09-05T10:37:49 IST" name="raja" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- raja -->
+        <test-method signature="ravi()[pri:0, instance:practiceTestNg.PersonalLoan@33065d67]" started-at="2024-09-05T10:37:49 IST" name="ravi" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ravi -->
+        <test-method signature="suresh()[pri:0, instance:practiceTestNg.PersonalLoan@33065d67]" started-at="2024-09-05T10:37:49 IST" name="suresh" finished-at="2024-09-05T10:37:49 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suresh -->
+      </class> <!-- practiceTestNg.PersonalLoan -->
+    </test> <!-- loan's and cards -->
+    <test started-at="2024-09-05T10:37:49 IST" name="Mobiles And PensAndBooks" finished-at="2024-09-05T10:37:49 IST" duration-ms="190">
+      <class name="practiceTestNg.Mobiles">
+        <test-method is-config="true" signature="jio()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="jio" finished-at="2024-09-05T10:37:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jio -->
+        <test-method signature="blackBerry()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="blackBerry" finished-at="2024-09-05T10:37:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blackBerry -->
+        <test-method is-config="true" signature="iphone()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="iphone" finished-at="2024-09-05T10:37:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+        <test-method is-config="true" signature="jio()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="jio" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jio -->
+        <test-method signature="nokia()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="nokia" finished-at="2024-09-05T10:37:49 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nokia -->
+        <test-method is-config="true" signature="iphone()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="iphone" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+        <test-method is-config="true" signature="jio()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="jio" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jio -->
+        <test-method signature="onePlus()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="onePlus" finished-at="2024-09-05T10:37:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onePlus -->
+        <test-method is-config="true" signature="iphone()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="iphone" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+        <test-method signature="oppo()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="oppo" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oppo -->
+        <test-method is-config="true" signature="jio()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="jio" finished-at="2024-09-05T10:37:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jio -->
+        <test-method is-config="true" signature="iphone()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="iphone" finished-at="2024-09-05T10:37:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+        <test-method is-config="true" signature="jio()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="jio" finished-at="2024-09-05T10:37:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jio -->
+        <test-method signature="realme()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="realme" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- realme -->
+        <test-method is-config="true" signature="iphone()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="iphone" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+        <test-method signature="redme()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="redme" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redme -->
+        <test-method is-config="true" signature="jio()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="jio" finished-at="2024-09-05T10:37:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jio -->
+        <test-method is-config="true" signature="iphone()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="iphone" finished-at="2024-09-05T10:37:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+        <test-method is-config="true" signature="jio()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="jio" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jio -->
+        <test-method signature="vivo()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="vivo" finished-at="2024-09-05T10:37:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vivo -->
+        <test-method is-config="true" signature="iphone()[pri:0, instance:practiceTestNg.Mobiles@45d84a20]" started-at="2024-09-05T10:37:49 IST" name="iphone" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iphone -->
+      </class> <!-- practiceTestNg.Mobiles -->
+      <class name="practiceTestNg.BooksAndPens">
+        <test-method signature="book6()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="book6" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book6 -->
+        <test-method signature="pen1()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="pen1" finished-at="2024-09-05T10:37:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pen1 -->
+        <test-method signature="pen2()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="pen2" finished-at="2024-09-05T10:37:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pen2 -->
+        <test-method signature="pen4()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="pen4" finished-at="2024-09-05T10:37:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pen4 -->
+        <test-method signature="pen6()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="pen6" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pen6 -->
+        <test-method signature="book1(java.lang.String)[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="book1" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gani.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book1 -->
+        <test-method signature="book2()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="book2" finished-at="2024-09-05T10:37:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book2 -->
+        <test-method signature="book3()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="book3" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book3 -->
+        <test-method signature="book4()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="book4" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book4 -->
+        <test-method signature="book5()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="book5" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- book5 -->
+        <test-method signature="pen3(java.lang.String,java.lang.String)[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="pen3" data-provider="getData" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1995]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pen3 -->
+        <test-method signature="pen3(java.lang.String,java.lang.String)[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="pen3" data-provider="getData" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1997]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pen3 -->
+        <test-method signature="pen3(java.lang.String,java.lang.String)[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="pen3" data-provider="getData" finished-at="2024-09-05T10:37:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pen3 -->
+        <test-method signature="pen5()[pri:0, instance:practiceTestNg.BooksAndPens@4a8355dd]" started-at="2024-09-05T10:37:49 IST" name="pen5" finished-at="2024-09-05T10:37:49 IST" depends-on-methods="practiceTestNg.BooksAndPens.book6" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pen5 -->
+      </class> <!-- practiceTestNg.BooksAndPens -->
+      <class name="practiceTestNg.PersonalLoan">
+        <test-method is-config="true" signature="gani()[pri:0, instance:practiceTestNg.PersonalLoan@33065d67]" started-at="2024-09-05T10:37:49 IST" name="gani" finished-at="2024-09-05T10:37:49 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gani -->
+        <test-method is-config="true" signature="praveen()[pri:0, instance:practiceTestNg.PersonalLoan@33065d67]" started-at="2024-09-05T10:37:49 IST" name="praveen" finished-at="2024-09-05T10:37:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- praveen -->
+      </class> <!-- practiceTestNg.PersonalLoan -->
+    </test> <!-- Mobiles And PensAndBooks -->
+  </suite> <!-- Gani private lmt -->
+</testng-results>

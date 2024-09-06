@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=D\:/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk-22/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk-22/lib/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=D\:/eclipse/plugins/org.junit_4.13.2.v20211018-1956.jar
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/91798/.m2/repository
+org.eclipse.jdt.core.classpathVariable.TESTNG_HOME=D\:/eclipse/configuration/org.eclipse.osgi/919/0/.cp
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.taskCaseSensitive=enabled
+org.eclipse.jdt.core.compiler.taskPriorities=NORMAL,HIGH,NORMAL
+org.eclipse.jdt.core.compiler.taskTags=TODO,FIXME,XXX
+org.eclipse.jdt.core.userLibrary.TestNG=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Users/91798/MY_Jars/testng-7.10.1.jar"/>\r\n</userlibrary>\r\n

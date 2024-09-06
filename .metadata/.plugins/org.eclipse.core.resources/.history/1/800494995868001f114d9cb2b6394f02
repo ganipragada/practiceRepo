@@ -1,0 +1,70 @@
+package genericUtilities;
+
+import java.io.IOException;
+
+import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class ListenersImplimentation implements ITestListener {
+
+	public void onTestStart(ITestResult result) {
+		// TODO Auto-generated method stub
+		String methodName = result.getMethod().getMethodName();
+		System.out.println(methodName+"test exection starts------");
+	}
+
+	public void onTestSuccess(ITestResult result) {
+		// TODO Auto-generated method stub
+		String methodName = result.getMethod().getMethodName();
+		System.out.println(methodName+"test pass------");
+		
+	}
+
+	public void onTestFailure(ITestResult result) {
+		// TODO Auto-generated method stub
+		String methodName = result.getMethod().getMethodName();
+		System.out.println(methodName+"test fail------");
+		System.out.println(result.getThrowable());
+		
+		
+	}
+
+	public void onTestSkipped(ITestResult result) {
+		// TODO Auto-generated method stub
+		String methodName = result.getMethod().getMethodName();
+		System.out.println(methodName+"test skip------");
+		System.out.println(result.getThrowable());
+		//tack screenshot
+		SeleniumUtilities  s = new SeleniumUtilities();
+		JavaUtilities j = new JavaUtilities();
+		 String  screenshotName = methodName+"-"+j.getSystemDate();
+		try {
+			s.captureScreenShot(BaseClass.sDriver, screenshotName);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+		// TODO Auto-generated method stub
+	}
+
+	public void onTestFailedWithTimeout(ITestResult result) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void onStart(ITestContext context) {
+		// TODO Auto-generated method stub
+	System.out.println("-----suite execution start--------");
+	}
+
+	public void onFinish(ITestContext context) {
+		// TODO Auto-generated method stub
+		System.out.println("-----Suite execution finish---------");
+	}
+
+}
